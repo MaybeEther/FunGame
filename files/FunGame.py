@@ -38,7 +38,7 @@ if __name__ == "__main__":
         run_as_admin()
 
 
-    guess=input("Enter your Guess! (its a three digit number) ")
+    guess=input("Enter your Guess! (its either 1, 2 or 3 digit number) ")
     if int(guess) == correctAnswer:
         print("You got it right!")
         time.sleep(5)
